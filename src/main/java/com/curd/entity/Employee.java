@@ -11,7 +11,7 @@ import lombok.Data;
 @Data
 public class Employee {
 	@Id
-	@GeneratedValue  
+	@GeneratedValue   
 	private Integer id;          
 	private String name;
 	private Long phno;
