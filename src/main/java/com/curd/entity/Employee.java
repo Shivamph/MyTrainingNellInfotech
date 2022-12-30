@@ -20,9 +20,10 @@ public class Employee {
 	private String name;
 	private Long phno;
 	
+	
+	
 	@OneToOne(mappedBy = "employee",cascade = CascadeType.ALL)
 	private Laptop laptop;
-
 	public Integer getId() {
 		return id;
 	}
