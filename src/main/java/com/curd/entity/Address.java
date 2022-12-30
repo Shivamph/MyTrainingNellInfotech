@@ -6,5 +6,6 @@ public class Address {
 	private String area;
 	private int pincode;
 	private String steet;
+	
 
 }
