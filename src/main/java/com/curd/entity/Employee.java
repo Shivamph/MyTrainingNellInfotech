@@ -1,5 +1,5 @@
 package com.curd.entity;
-//shivam phatangare
+
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.Id;
@@ -11,12 +11,12 @@ import lombok.Data;
 @Data
 public class Employee {
 	@Id
-	@GeneratedValue
+	@GeneratedValue   
 	private Integer id;          
 	private String name;
 	private Long phno;
 	public Integer getId() {
-		return id;
+		return id; 
 	}
 	public void setId(Integer id) {
 		this.id = id;
@@ -33,6 +33,19 @@ public class Employee {
 	public void setPhno(Long phno) {
 		this.phno = phno;
 	}
+	public Employee(Integer id, String name, Long phno) {
+		super();
+		this.id = id;
+		this.name = name;
+		this.phno = phno;
+	}
+	public Employee() {
+		super();
+
+	}
+	//ssssssssssssssssss
+	//sssssssssssssssssssss
+	//ssssssssssssssssssssss
 	
 
 }
