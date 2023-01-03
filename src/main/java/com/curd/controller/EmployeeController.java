@@ -26,6 +26,11 @@ public class EmployeeController {
 		return employeeService.empGetByid(id);
 	}
 	
+	@GetMapping("/")
+	public String home() {
+		return "home";
+	}
+	
 	@GetMapping("/showallemp")
 	public List<Employee> getAllEmp(){
 		

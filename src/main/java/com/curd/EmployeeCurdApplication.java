@@ -32,27 +32,27 @@ public class EmployeeCurdApplication implements CommandLineRunner {
 
 	@Override
 	public void run(String... args) throws Exception {
-		Employee employee = new Employee();
-		Laptop laptop = new Laptop();
-		
-//		employee.setId(101);
-		employee.setName("Ashish Madane");
-		employee.setPhno((long) 00000);
-		
-		
-//		laptop.setLaptopId(1);
-		laptop.setLaptopName("Hidustan Laptop");
-		laptop.setEmployee(employee);
-		employee.setLaptop(laptop);
-		
-		
-		
-		
-		System.out.println(employee);
-		System.out.println(laptop.getLaptopName());
-		employeerepository.save(employee);
-		
-		
+//		Employee employee = new Employee();
+//		Laptop laptop = new Laptop();
+//		
+////		employee.setId(101);
+//		employee.setName("Ashish Madane");
+//		employee.setPhno((long) 00000);
+//		
+//		
+////		laptop.setLaptopId(1);
+//		laptop.setLaptopName("Hidustan Laptop");
+//		laptop.setEmployee(employee);
+//		employee.setLaptop(laptop);
+//		
+//		
+//		
+//		
+//		System.out.println(employee);
+//		System.out.println(laptop.getLaptopName());
+//		employeerepository.save(employee);
+//		
+//		
 		
 		
 	}
